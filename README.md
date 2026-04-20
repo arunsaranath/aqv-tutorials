@@ -63,7 +63,7 @@ These tutorials are created and maintained by the **Freshwater Sensing Group**, 
             <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:ryan.oshea@ssaihq.com">ryan.oshea@ssaihq.com</a></td>
         </tr>
         <tr>
-            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Uncertainties</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Uncertainties & MDN Codebase</td>
             <td style="padding: 10px; border-bottom: 1px solid #eee;">Arun Saranathan</td>
             <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:arun.saranathan@ssaihq.com">arun.saranathan@ssaihq.com</a></td>
         </tr>
@@ -73,7 +73,7 @@ These tutorials are created and maintained by the **Freshwater Sensing Group**, 
             <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:akash.ashapure@ssaihq.com">akash.ashapure@ssaihq.com</a></td>
         </tr>
         <tr>
-            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Stream Website</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Stream Website- Front & Backend</td>
             <td style="padding: 10px; border-bottom: 1px solid #eee;">William Wainwright</td>
             <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:william.wainwright@ssaihq.com">william.wainwright@ssaihq.com</a></td>
         </tr>
