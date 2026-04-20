@@ -9,59 +9,78 @@
   </a>
 </p>
 
-This repository contains the comprehensive lesson plan and interactive tutorials for the **AQUAVERSE** framework. Designed for the Ocean Optics 2026 conference, these modules introduce users to Mixture Density Networks (MDNs) and their application in retrieving high-fidelity water quality metrics from satellite and spectral data.
-
 ---
+
+## 📖 Overview
+This repository contains the full lesson plan and interactive tutorials for the **AQUAVERSE** framework. It is designed for presentation at the **Ocean Optics Conference (August 2026)** and serves as a permanent introduction for new users to MDN (Mixture Density Network) packages and their application to geophysical datasets. Selected WQ products generated using our MDN pipelines are available for visualization and download via NASA's **<a href="https://ladsweb.modaps.eosdis.nasa.gov/stream/" target="_blank" style="color:#0056b3;text-decoration:underline;font-weight:bold;"> Satellite-based Tool for Rapid Evaluation of Aquatic environMents (STREAM)</a>** website.
 
 ## 📚 Lesson Plan
-
-This tutorial is structured as an end-to-end pipeline, moving from theoretical foundations to real-world satellite applications.
+Each lesson is designed as a standalone Jupyter Notebook, moving from spectral foundations to end-to-end satellite workflows.
 
 ### 1. Introduction to MDN & GLORIA Data
-* **Goal:** Understand the spectral inputs and the architecture of Mixture Density Networks.
-* **Highlights:** * Exploratory Data Analysis (EDA) of the **GLORIA** dataset.
-  * Comparing classical Neural Networks vs. MDNs.
-  * Interpreting model outputs and quantifying **uncertainty**.
+* **Content:** Introduction to spectral data using the **GLORIA** dataset.
+* **Key Topics:** Spectral visualization, MDN vs. Classical Neural Networks, output formats, and quantifying **uncertainty**.
 
-### 2. MDN-AC: Atmospheric Correction
-* **Goal:** Perform Atmospheric Correction (AC) on raw satellite imagery.
-* **Highlights:** * Using APIs to fetch Top-of-Atmosphere (TOA) signals.
-  * Converting TOA to Rayleigh-corrected reflectance ($\rho_{rc}$).
-  * Executing the correction pipeline to derive Remote Sensing Reflectance ($R_{rs}$).
+### 2. MDN-AC: Application to Satellite Imagery
+* **Content:** Walking through the Atmospheric Correction (AC) pipeline.
+* **Key Topics:** API-based TOA signal retrieval, conversion to Rayleigh-corrected reflectance ($\rho_{rc}$), and performing the correction to $R_{rs}$.
 
-### 3. MDN-WQ: Water Quality Retrieval
-* **Goal:** Extract biogeochemical products from corrected imagery.
-* **Highlights:** * Applying MDN-WQ models to the output from Lesson 2.
-  * Generating spatial maps for Chlorophyll-a and other water quality indicators.
+### 3. MDN-WQ: Product Generation
+* **Content:** Applying MDN-WQ to the corrected imagery from Lesson 2.
+* **Key Topics:** Generating biogeochemical products and final spatial mapping.
+
+### 4. Exercise 1: End-to-End Application
+* **Content:** A hands-on challenge for participants to apply the pipeline to a different image.
+* **Note:** Includes a "Starter" notebook with code blocks missing and a "Solution" notebook for post-session review.
 
 ---
 
-## 🛠️ Exercises & Extensions
-
+## 🛠️ Extensions & Advanced Use
 <details>
-<summary><b>💪 Exercise 1: End-to-End Challenge (Click to Expand)</b></summary>
+<summary><b>🧪 Optional: Application to 2D Spectral Data (Click to Expand)</b></summary>
 <br>
-Test your knowledge by applying the full pipeline to a new, independent dataset. 
-<ul>
-  <li><b>Task:</b> Download, correct, and analyze a unique image.</li>
-  <li><b>Resources:</b> We provide a "Starter" notebook with code gaps and a "Solution" notebook for post-session verification.</li>
-</ul>
-</details>
-
-<details>
-<summary><b>🧪 Optional: In-Situ Validation</b></summary>
-<br>
-Compare MDN-WQ performance against standard algorithms using your own 2D spectral measurements. 
-<ul>
-  <li>Validate model superiority with ground-truth data.</li>
-  <li><i>Coming Soon:</i> Automated point-location extraction and correction (Projected: Late 2026).</li>
-</ul>
+Originally conceived to allow users to apply MDN-WQ to their own <i>in situ</i> measurements. This section provides a framework for algorithm validation and comparison against standard models.
 </details>
 
 ---
 
-## 🚀 Getting Started
+## 🏛️ Team & Maintenance
+These tutorials are created and maintained by the **Freshwater Sensing Group**, affiliated with **SSAI** and **NASA GSFC-619.0**.
 
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/arunsaranath/aqv-tutorials.git](https://github.com/arunsaranath/aqv-tutorials.git)
+<h4>Technical Contacts</h4>
+<table style="width: 100%; border-collapse: collapse;">
+    <thead>
+        <tr style="border-bottom: 2px solid #ddd;">
+            <th style="text-align: left; padding: 12px;">Domain</th>
+            <th style="text-align: left; padding: 12px;">Section Lead</th>
+            <th style="text-align: left; padding: 12px;">Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">BPs & IOP Products</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;">Ryan E. O'Shea</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:ryan.oshea@ssaihq.com">ryan.oshea@ssaihq.com</a></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Uncertainties</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;">Arun Saranathan</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:arun.saranathan@ssaihq.com">arun.saranathan@ssaihq.com</a></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Atmospheric Correction</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;">Akash Ashapure</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:akash.ashapure@ssaihq.com">akash.ashapure@ssaihq.com</a></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #eee; font-weight: 500;">Stream Website</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;">William Wainwright</td>
+            <td style="padding: 10px; border-bottom: 1px solid #eee;"><a href="mailto:william.wainwright@ssaihq.com">william.wainwright@ssaihq.com</a></td>
+        </tr>
+    </tbody>
+</table>
+
+---
+<p align="center">
+  <i>Part of the NASA GSFC-619.0 Freshwater Sensing Initiative.</i>
+</p>
