@@ -82,5 +82,5 @@ These tutorials are created and maintained by the **Freshwater Sensing Group**, 
 
 ---
 <p align="center">
-  <i>Part of the NASA GSFC-619.0 Freshwater Sensing Initiative.</i>
+  <i>Part of the NASA GSFC-619.0/SSAI Freshwater Sensing Group.</i>
 </p>
