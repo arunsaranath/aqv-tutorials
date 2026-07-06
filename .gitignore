@@ -1,0 +1,12 @@
+# List of files/folder to be ignored by git
+
+
+# Skip these folders completely
+data/
+
+# Skip these files specifically
+test_bed.py
+
+# Ignore all log files
+*.log
+*.pyc
