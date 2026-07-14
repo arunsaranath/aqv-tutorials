@@ -10,3 +10,4 @@ test_bed.py
 # Ignore all log files
 *.log
 *.pyc
+*.nc
